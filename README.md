@@ -4,8 +4,8 @@
 Id, Name, Cusine (data type of Cusine is the enum)
 2.	Create an enum in models folder with name  CusineType 
 3.	Create a collection using collection initializer and add data of restaurant
-4.	The Index() action method should display  restaurant names only in bulleted lists (<ul><li></li></ul>
-Make use of Strongly typed views
+4.	The Index() action method should display  restaurant names only in bulleted lists 
+(Make use of Strongly typed views)
 5.	The navbar should display the following Action Link
 MultiCusineRestaurant		Restaurants
 When I click on the link	“MultiCusineRestaurant” on the navbar it should display an image of food or restaurant
