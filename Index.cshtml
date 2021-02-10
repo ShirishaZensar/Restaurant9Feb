@@ -1,0 +1,16 @@
+﻿@model IEnumerable<RestaurantWork9Feb.Models.RestaurantApp>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Restaurant Names</h2>
+
+@foreach (var v in Model)
+{
+    <ul>
+        <li> <a href="/Hotel/Details/@v.RId"> @v.RName </a></li>
+    </ul>
+}
+
+
+
